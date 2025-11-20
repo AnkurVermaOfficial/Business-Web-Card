@@ -31,18 +31,6 @@ This project was created to highlight my ability to build:
 
 ---
 
-## 📁 Live Demo
-
-Add your live link here (e.g., GitHub Pages).
-
----
-
-## 📸 Preview
-
-Add a screenshot of your project here.
-
----
-
 ## 📬 Feedback
 
 Feel free to open an issue or submit a pull request if you have ideas to improve this project!
