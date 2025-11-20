@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: white;
+    text-align: center;
+    border: 3px solid black;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.img-view{
+    width: 300px;
+    height: 150px;
+}
+
+img{
+    width: 130px;
+    height: 140px;
+    border: 4px solid black;
+    border-radius: 150px;
+    
+}
+
+.upper-main{
+    text-align: center;
+    padding: 20px;
+}
+
+.upper-main h1{
+    color: black;
+}
+
+.role{
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(115, 100, 11);
+    text-decoration: underline;
+
+}
+
+.buttons #email{
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: whitesmoke;
+    background-color: rgb(16, 128, 16);
+    text-decoration: none;
+    margin-right: 3px;
+}
+.buttons #linkedin{
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: white;
+    margin-left: 3px;
+    background-color: rgb(24, 83, 210);
+    text-decoration: none;
+}
+
+.middle-main{
+    text-align: left;
+}
+
+.middle-main h3{
+    padding: 5px;
+}
+
+.middle-main p{
+   text-align: justify;
+   padding: 5px;
+   margin-bottom: 5px; 
+}
+
+hr{
+    margin: 20px 0px;
+}
+
+#buy{
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Ninjas</title>
+</head>
+<body>
+<hr>    
+    <h1>Media Tags</h1>
+
+    <h2>Images</h2>
+    <!-- https://placehold.co/ -->
+    <img src="https://placehold.co/600x400?font=roboto" alt=""/>
+<hr>
+    <h2>Audio</h2>
+    <audio src="" controls></audio>
+<hr>
+    <h2>Video</h2>
+    <video src="" controls></video>
+<hr>
+    <h2>Iframes</h2>
+
+    <h3>youtube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3SoCJ1sUUYc?si=wQ9VaekLZuGVWRbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h3>google maps</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14309.372875306208!2d82.07339764999999!3d26.282971349999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1752387109148!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <hr>
+
+    <h2>tables</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Roll No.</th>
+                <th>Name</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Akash</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bhanu</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Charu</td>
+                <td>Male</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="2">Roll No.</th>
+                <th rowspan="2">Name</th>
+                <th rowspan="2">Gender</th>
+                <th colspan="2">Other Details</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Akash</td>
+                <td>Male</td>
+                <td>5'9</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bhanu</td>
+                <td>Male</td>
+                <td>5'8</td>
+                <td>70</td>
+            </tr>
+            <tr>
+               <td>3</td>
+                <td>Charu</td>
+                <td>Male</td>
+                <td>5'7</td>
+                <td>60</td>
+            </tr>
+            
+        </tbody>
+    </table>
+<hr>
+
+    <h2>Form</h2>
+    <form action="#">
+
+        <input type="text" placeholder="Enter Your Name" name="name"><br><br>
+        <input type="email" placeholder="Eneter your Emaill" name="email"><br><br>
+        <input type="password" placeholder="Eneter your Password" name="pwd"><br><br>
+        
+        <p>Gender:</p>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+
+        <p>Hobbies:</p>
+        <input type="checkbox" value="Swimming">Swimming
+        <input type="checkbox" value="Cricket">Cricket
+        <input type="checkbox" value="Football">Football
+        
+        <p>Country:</p>
+        <select name="Country" id="">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="japan">Japan</option>
+        </select>
+
+        <p>Feedback:</p>
+
+        <textarea name="feedback" id="" placeholder="Write here.."></textarea>
+
+        
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+</body>
+</html>
